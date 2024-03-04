@@ -44,7 +44,7 @@ class Students extends CI_Controller
             $result = $this->students_model->add($data);
 
             if ($result) {
-                $this->session->set_flashdata('successAdd', 'User successfully added');
+                $this->session->set_flashdata('successAdd', 'Student successfully added');
                 redirect('students');
             } else {
                 $this->session->set_flashdata('errorAdd', 'Failed to add user.');
