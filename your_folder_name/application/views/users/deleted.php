@@ -21,8 +21,8 @@
                         <thead>
                             <tr>
                                 <th>User Level</th>
-                                <th>Last Name</th>
                                 <th>First Name</th>
+                                <th>Last Name</th>
                                 <th>Username</th>
                                 <th>Contacts</th>
                                 <th>Option</th>
@@ -33,8 +33,8 @@
                             <?php foreach ($users as $user) : ?>
                                 <tr>
                                     <td><?= $user->user_level; ?></td>
-                                    <td><?= $user->last_name; ?></td>
                                     <td><?= $user->first_name; ?></td>
+                                    <td><?= $user->last_name; ?></td>
                                     <td><?= $user->user_name; ?></td>
                                     <td><?= $user->contact_number; ?></td>
                                     <td>
