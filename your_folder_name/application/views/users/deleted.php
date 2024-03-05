@@ -38,7 +38,7 @@
                                     <td><?= $user->user_name; ?></td>
                                     <td><?= $user->contact_number; ?></td>
                                     <td>
-                                        <a href="<?= site_url('users/restore/') . $user->id; ?>" class="btn btn-outline-primary">Restore</a>
+                                        <a href="<?= site_url('users/restore/'. $user->id); ?>" class="btn btn-outline-primary">Restore</a>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
