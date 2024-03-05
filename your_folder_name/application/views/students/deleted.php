@@ -37,7 +37,7 @@
                                     <td><?= $student->midterm_grade ?> </td>
                                     <td><?= $student->final_grade ?> </td>
                                     <td>
-                                        <a href="<?= site_url('students/restore/') . $student->id; ?>" class="btn btn-outline-primary">Restore</a>
+                                        <a href="<?= site_url('students/restore/'. $student->id); ?>" class="btn btn-outline-primary">Restore</a>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
